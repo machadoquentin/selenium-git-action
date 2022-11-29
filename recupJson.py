@@ -20,3 +20,4 @@ def print_movie(ligne,i):
         print(Fore.GREEN + "Le nom du film est ",Fore.WHITE + random.choice(ligne)['Name'] ,Fore.GREEN+ " et il est noté :  ",Fore.WHITE +random.choice(ligne)['Rating'],Fore.GREEN+" pour ",Fore.WHITE +random.choice(ligne)['Votes'],Fore.GREEN+" votes")
 
 load_data()
+
